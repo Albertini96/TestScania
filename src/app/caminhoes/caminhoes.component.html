@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+        <tr>
+        <th scope="col">Modelo</th>
+        <th scope="col">Combustivel</th>
+        <th scope="col">Preco</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of caminhoes">
+        <td>{{i.modelo}}</td>
+        <td>{{i.combustivel}}</td>
+        <td>{{i.preco}}</td>
+        </tr>
+    </tbody>
+</table>
